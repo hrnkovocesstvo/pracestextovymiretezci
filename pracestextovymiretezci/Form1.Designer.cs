@@ -130,6 +130,7 @@
             this.buttonPalindrom.TabIndex = 8;
             this.buttonPalindrom.Text = "Test na palindrom";
             this.buttonPalindrom.UseVisualStyleBackColor = true;
+            this.buttonPalindrom.Click += new System.EventHandler(this.buttonPalindrom_Click);
             // 
             // Form1
             // 

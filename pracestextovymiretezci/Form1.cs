@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -53,6 +54,20 @@ namespace pracestextovymiretezci
             char[] chars = textIn.Text.ToCharArray();
             int count = chars.Count(c => c == 'p' || c == 'P');
             textOut.Text = count.ToString();
+        }
+
+        private void buttonPalindrom_Click(object sender, EventArgs e)
+        {
+            char[] chars = textIn.Text.ToCharArray();
+            char[] chars2 = textIn.Text.ToCharArray();
+            Array.Reverse(chars);
+            string debout1 = new string(chars); 
+            string debout2 = new string(chars2);
+            if (debout1 == debout2) textOut.Text = "Pass";
+            else textOut.Text = "Fail";
+
+            Console.WriteLine(debout1);
+            Console.WriteLine(debout2);
         }
     }
 }
