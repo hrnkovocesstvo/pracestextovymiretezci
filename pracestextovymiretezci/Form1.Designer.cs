@@ -56,6 +56,7 @@
             this.buttonMezery.TabIndex = 1;
             this.buttonMezery.Text = "Bez mezer";
             this.buttonMezery.UseVisualStyleBackColor = true;
+            this.buttonMezery.Click += new System.EventHandler(this.buttonMezery_Click);
             // 
             // textIn
             // 
@@ -74,6 +75,7 @@
             this.buttonPočeta.TabIndex = 3;
             this.buttonPočeta.Text = "Počet \"a\"";
             this.buttonPočeta.UseVisualStyleBackColor = true;
+            this.buttonPočeta.Click += new System.EventHandler(this.buttonPočeta_Click);
             // 
             // buttonMala
             // 
@@ -84,6 +86,7 @@
             this.buttonMala.TabIndex = 4;
             this.buttonMala.Text = "Na malá písmena";
             this.buttonMala.UseVisualStyleBackColor = true;
+            this.buttonMala.Click += new System.EventHandler(this.buttonMala_Click);
             // 
             // buttonPočetPp
             // 
@@ -104,6 +107,7 @@
             this.buttonDelka.TabIndex = 6;
             this.buttonDelka.Text = "Délka textu";
             this.buttonDelka.UseVisualStyleBackColor = true;
+            this.buttonDelka.Click += new System.EventHandler(this.buttonDelka_Click);
             // 
             // buttonRewerse
             // 
@@ -114,6 +118,7 @@
             this.buttonRewerse.TabIndex = 7;
             this.buttonRewerse.Text = "Pozpátku";
             this.buttonRewerse.UseVisualStyleBackColor = true;
+            this.buttonRewerse.Click += new System.EventHandler(this.buttonRewerse_Click);
             // 
             // buttonPalindrom
             // 
