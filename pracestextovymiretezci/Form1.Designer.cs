@@ -97,6 +97,7 @@
             this.buttonPočetPp.TabIndex = 5;
             this.buttonPočetPp.Text = "Počet \"p\" a \"P\"";
             this.buttonPočetPp.UseVisualStyleBackColor = true;
+            this.buttonPočetPp.Click += new System.EventHandler(this.buttonPočetPp_Click);
             // 
             // buttonDelka
             // 

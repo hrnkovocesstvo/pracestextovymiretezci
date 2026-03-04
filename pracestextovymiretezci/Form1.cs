@@ -47,5 +47,12 @@ namespace pracestextovymiretezci
             string revchars = new string(chars);
             textOut.Text = revchars;
         }
+
+        private void buttonPočetPp_Click(object sender, EventArgs e)
+        {
+            char[] chars = textIn.Text.ToCharArray();
+            int count = chars.Count(c => c == 'p' || c == 'P');
+            textOut.Text = count.ToString();
+        }
     }
 }
